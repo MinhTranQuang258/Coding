@@ -1,0 +1,14 @@
+spring:
+    application:
+          name: spring-cloud
+    could:
+          config:
+              uri: http://localhost:8888
+    profiles:
+          active: git
+management:
+    security:
+          enabled: false
+jasypt:
+    encryptor:
+          password: 12345
